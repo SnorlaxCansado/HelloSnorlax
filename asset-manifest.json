@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/HelloSnorlax/static/css/main.df88131a.css",
+    "main.js": "/HelloSnorlax/static/js/main.a61aadec.js",
+    "static/media/profile.png": "/HelloSnorlax/static/media/profile.6af199ce3c716ac1d466.png",
+    "index.html": "/HelloSnorlax/index.html",
+    "main.df88131a.css.map": "/HelloSnorlax/static/css/main.df88131a.css.map",
+    "main.a61aadec.js.map": "/HelloSnorlax/static/js/main.a61aadec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df88131a.css",
+    "static/js/main.a61aadec.js"
+  ]
+}
