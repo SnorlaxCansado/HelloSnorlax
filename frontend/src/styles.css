@@ -1,0 +1,88 @@
+/* Global styles */
+:root {
+  --primary-color: #61dafb;
+  --secondary-color: #282c34;
+  --font-color: white;
+  --font-size-large: 18px;
+  --font-size-medium: 16px;
+  --font-size-small: 14px;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+/* About section styles */
+.about h2, .about h3 {
+  color: var(--primary-color);
+}
+
+.about p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+}
+
+.about-text {
+  max-width: 600px;
+}
+
+.profile-image {
+  width: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Button styles */
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #21a1f1;
+}
+
+/* Project list styles */
+.project-list {
+  display: flex;
+  gap: 20px;
+}
+
+.project-item {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact section */
+.contact a {
+  color: var(--primary-color);
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
