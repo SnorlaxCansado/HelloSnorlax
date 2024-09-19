@@ -1,32 +1,21 @@
 {
-  "name": "my-portfolio-frontend",
+  "name": "my-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://SnorlaxCansado.github.io/HelloSnorlax",
   "dependencies": {
-    "autoprefixer": "^10.4.20",
-    "css-loader": "^7.1.2",
-    "nth-check": "^2.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-scripts": "^5.0.1",
-    "webpack-dev-server": "^4.7.4"
-  },
-  "resolutions": {
-    "nth-check": "2.1.1",
-    "postcss": "8.4.47",
-    "resolve-url-loader": "^5.0.0"
-  },
-  "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.18.6",
-    "postcss": "^8.4.31",
-    "resolve-url-loader": "^5.0.0",
-    "svgo": "^3.3.2"
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
